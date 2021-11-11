@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+  <!-- we can import invasion_all_weapons.xml directly as it is fully populated -->
+  <!-- and does not import "all_weapons.xml" (which would cause a circular dependency problem) -->
+  <!-- however, as we overlay vanilla and not invasion, we must include experimental_weapons.xml -->
+  <!-- in the package (as the vanilla weapons/experimental_weapons.xml is empty) -->
+  <weapon file="../invasion/weapons/invasion_all_weapons.xml" />
+
+  <!-- add weapons below, not in ./weapons/all_weapons.xml -->
+  <!-- if you add something here, remember to add it in common.resources or specific faction resources too! -->
+
+</weapons>

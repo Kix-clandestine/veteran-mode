@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicles>
+  <!-- imported from media/packages/invasion as vanilla/vehicles/ version is empty -->
+  <vehicle file="emp.vehicle" />
+  <vehicle file="repair.vehicle" />
+  <vehicle file="repair_crane.vehicle" />
+
+  <vehicle file="zjx19.vehicle" />
+  <vehicle file="zjx19_para.vehicle" />
+  <vehicle file="zjx19_spawn.vehicle" />
+</vehicles>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visual_items>
+  <!--  <visual_item file="vanilla_1.89_all_visual_items.xml" />-->
+  <visual_item file="../vanilla/items/all_visual_items.xml" />
+  <!--  add visual items here-->
+</visual_items>
