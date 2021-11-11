@@ -30,7 +30,7 @@ void main(dictionary@ inputData) {
     settings.m_journalEnabled = false;
     settings.m_fellowDisableEnemySpawnpointsSoldierCountOffset = 1;
     // HACK: [VM] some of these VM things require XP and RP, improve reward factor and starting amounts
-    settings.m_xpFactor = 5.0;
+    settings.m_xpFactor = 1.0;
     /* settings.m_rpFactor = 1.0; */
     settings.m_initialXp = 100.0;
     settings.m_initialRp = 1000000.0;
@@ -38,6 +38,8 @@ void main(dictionary@ inputData) {
     settings.m_friendlyFire = true;
     // HACK: [VM] enable testing tools!
     settings.m_testingToolsEnabled = true;
+    // configure veteran settings
+    settings.m_fov = true;
 
     array<string> overlays = { "media/packages/invasion", "media/packages/veteran-mode" };
     settings.m_overlayPaths = overlays;
