@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectiles>
+  <!-- {vanilla,invasion}/weapons/invasion_all_throwables.xml imports all_throwables.xml -->
+  <!-- thus we must explicitly reference files here instead of using invasion_all_throwables.xml -->
+  <!-- in order to avoid a circular dependency where vm/weapons/all_throwables.xml would be found by -->
+  <!-- `<projectile file="all_throwables.xml" />` in {vanilla,invasion}/weapons/invasion_all_throwables.xml -->
+  <projectile file="../vanilla/weapons/all_throwables.xml" />
+  <projectile file="../invasion/weapons/experimental_projectiles.xml" />
+
+  <!-- add throwables/projectiles below, not in ./weapons/all_throwables.xml -->
+  <!-- if you add something here, remember to add it in common.resources or specific faction resources too! -->
+
+</projectiles>

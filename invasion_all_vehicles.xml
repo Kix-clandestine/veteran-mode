@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicles>
+  <!-- we load from vanilla all_vehicles.xml and populate experimental_vehicles.xml -->
+  <!-- in the package as vanilla/vehicles/experimental_vehicles.xml is empty -->
+  <vehicle file="../vanilla/vehicles/all_vehicles.xml" />
+
+  <!-- add vehicles below, not in ./vehicles/all_vehicles.xml -->
+  <!-- if you add something here, remember to add it in common.resources or specific faction resources too! -->
+
+</vehicles>
