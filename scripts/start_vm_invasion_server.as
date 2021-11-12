@@ -21,17 +21,23 @@ void main(dictionary@ inputData) {
     settings.m_username = username;
     // 0 (greenbelts), 1 (graycollars), 2 (brownpants)
     settings.m_factionChoice = 0;
-    settings.m_playerAiCompensationFactor = 1.0;
-    settings.m_enemyAiAccuracyFactor = 0.95;
+    // boosted enemy numbers - is this 4 or 40%?
+    // unclear how factor works (1.1 in 1.83, 105 in 1.82)
+    settings.m_playerAiCompensationFactor = 1.04;
+    settings.m_enemyAiAccuracyFactor = 0.94;
     settings.m_playerAiReduction = 0.0;
+    // full damage to players!
+    settings.m_playerDamageModifier = 0.0;
     // HACK: mod for VM tester invasion
     settings.m_teamKillPenaltyEnabled = false;
     settings.m_completionVarianceEnabled = false;
     settings.m_journalEnabled = false;
     settings.m_fellowDisableEnemySpawnpointsSoldierCountOffset = 1;
+    settings.m_spawnTimeAtMaxPlayers = 2.0;
     // HACK: [VM] some of these VM things require XP and RP, improve reward factor and starting amounts
-    settings.m_xpFactor = 1.0;
-    /* settings.m_rpFactor = 1.0; */
+    // xp factor 2x vanilla invasion 1.89 setting
+    settings.m_xpFactor = 0.27 * 2;
+    settings.m_rpFactor = 1.0;
     settings.m_initialXp = 100.0;
     settings.m_initialRp = 1000000.0;
     // HACK: [VM] when there aren't enough enemies around, test these weapons on your allies instead XD
@@ -50,7 +56,7 @@ void main(dictionary@ inputData) {
     server_port='1234'
     comment='Coop campaign'
     url=''
-    register_in_serverlist='1'
+    register_in_serverlist='0'
     mode='COOP'
     persistency='forever'
     max_players='16'>
