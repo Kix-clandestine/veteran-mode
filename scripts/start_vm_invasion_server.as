@@ -30,7 +30,8 @@ void main(dictionary@ inputData) {
     settings.m_journalEnabled = false;
     settings.m_fellowDisableEnemySpawnpointsSoldierCountOffset = 1;
     // HACK: [VM] some of these VM things require XP and RP, improve reward factor and starting amounts
-    settings.m_xpFactor = 1.0;
+    // xp factor 2x vanilla invasion 1.89 setting
+    settings.m_xpFactor = 0.27 * 2;
     /* settings.m_rpFactor = 1.0; */
     settings.m_initialXp = 100.0;
     settings.m_initialRp = 1000000.0;
@@ -50,7 +51,7 @@ void main(dictionary@ inputData) {
     server_port='1234'
     comment='Coop campaign'
     url=''
-    register_in_serverlist='1'
+    register_in_serverlist='0'
     mode='COOP'
     persistency='forever'
     max_players='16'>
