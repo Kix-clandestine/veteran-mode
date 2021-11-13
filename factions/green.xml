@@ -611,4 +611,43 @@
     </attribute_config>
   </soldier>
 
+  <!-- -------- -->
+  <!-- exo ripper -->
+  <!-- -------- -->
+  <soldier name="exo ripper" spawn_score="0.05" squad_size_xp_cap="0">
+    <character filename="exoripper.character" />
+    <ai filename="exoripper.ai" />
+
+    <models file="green_ripper.models" />
+
+    <resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
+      <weapon key="ripper_steyr_aug.weapon" enabled="1"/>
+      <weapon key="ripper_stoner_lmg.weapon" enabled="1"/>
+      <weapon key="ripper_aa12.weapon" enabled="1"/>
+      <weapon key="m202_flash.weapon" enabled="1"/>
+      <projectile key="selfstun.projectile" enabled="1"/>
+      <carry_item key="vest_exo_mk2.carry_item" enabled="1"/>
+    </resources>
+    
+    <item_class_existence_config>
+    <item_class_existence class="weapon" slot="0" probability="1.0"/>
+      <!-- secondaries -->
+      <item_class_existence class="weapon" slot="1" probability="1.0"/>
+      <!-- wearables -->
+      <item_class_existence class="carry_item" slot="1" probability="1.0" />
+      <!-- backpack -->
+      <item_class_existence class="carry_item" slot="0" probability="1.0" />
+      <!-- throwables -->
+      <item_class_existence class="projectile" slot="0" probability="1.0" />
+    </item_class_existence_config>
+
+    <attribute_config class="rp">
+      <attribute weight="1.0" min="0.0" max="0.0" />
+    </attribute_config>
+
+    <attribute_config class="xp">
+      <attribute weight="1.0" min="10" max="50" />
+    </attribute_config>
+  </soldier>
+
 </faction>

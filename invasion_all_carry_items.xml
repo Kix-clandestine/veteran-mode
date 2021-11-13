@@ -5,5 +5,8 @@
 
   <!-- add carry items below, not in ./items/all_carry_items.xml -->
   <!-- if you add something here, remember to add it in common.resources or specific faction resources too! -->
+	
+<!-- EXO Rippers -->
+	<carry_item file="vest_exo_mk2.carry_item" />	
 
 </carry_items>

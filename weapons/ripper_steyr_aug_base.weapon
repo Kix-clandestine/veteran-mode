@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="1.0">
+    <tag name="assault" />
+    <specification 
+    retrigger_time="0.13" 
+    accuracy_factor="1.0" 
+    sustained_fire_grow_step="0.38" 
+    sustained_fire_diminish_rate="1.5" 
+    magazine_size="1000" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="1" 
+    can_shoot_prone="0" 
+    suppressed="0" 
+    name="REXO Steyr AUG" 
+    class="0" 
+    projectile_speed="162.0"
+	sight_range_modifier="1.3"
+	barrel_offset="0.325"
+	stab_enabled="1"
+	/>
+ 	<animation state_key="recoil" animation_key="recoil, hip exo" />
+ 	<animation state_key="hold" animation_key="hold, hip exo" />
+	<animation state_key="recoil" stance_key="over_wall" animation_key="recoil1" />
+	<animation state_key="recoil" stance_key="over_wall" animation_key="recoil2" />
+	<animation state_key="recoil" stance_key="over_wall" animation_key="recoil3" />
+	<animation state_key="recoil" stance_key="crouching" animation_key="recoil1" />
+	<animation state_key="recoil" stance_key="crouching" animation_key="recoil2" />
+	<animation state_key="recoil" stance_key="crouching" animation_key="recoil3" />
+  	<animation state_key="hold_on_wall"	animation_key="still" />
+    <animation key="reload" animation_key="fast throw" />
+    <animation state_key="stabbing" animation_key="stabbing, stock" />
+	
+    <sound key="fire" fileref="aug_shot.wav" pitch_variety="0.04" volume="0.9" />
+    <sound key="magazine_out" fileref="rifle_clip_out.wav" />
+    <sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.03" volume="0.5" />
+	<sound key="stab_hit" fileref="impact_whip.wav" pitch_variety="0.05" volume="0.9" />
+	<sound key="stab_hit_any" fileref="whip_hit.wav" pitch_variety="0.05" volume="0.8" />
+    <model filename="ripper_steyr_aug.xml" />
+
+    <hud_icon filename="hud_aug.png" />
+    <commonness value="1.0" can_respawn_with="1" in_stock="1" />
+    <inventory encumbrance="10.0" price="0.0" />
+
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="0.55" kill_decay_start_time="0.45" kill_decay_end_time="0.75" kill_probability_offset_on_successful_hit="1.0"/>
+    </projectile>
+	<modifier class="speed" value="-0.05" />
+	
+    <shield offset="-0.0 0.0 0" extent="0.8 0.8 0.6" usable_for_cover="0" />
+	
+	    <drop_on_death_result class="spawn" instance_class="projectile" instance_key="exo_explosion.projectile" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" />
+</weapon>

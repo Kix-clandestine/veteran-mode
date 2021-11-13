@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="1.0">
+    <tag name="machine gun" />
+    <specification 
+    retrigger_time="0.055" 
+    accuracy_factor="0.79" 
+    sustained_fire_grow_step="0.5" 
+    sustained_fire_diminish_rate="1.8" 
+    magazine_size="1000" 
+    can_shoot_standing="1" 
+    can_shoot_prone="0" 
+    suppressed="0" 
+    name="REXO Stoner LMG" 
+    class="4"
+    burst_shots="16" 
+    last_burst_retrigger_time="0.25"
+    projectile_speed="130.0"
+	stab_enabled="1"
+	/>
+ 	<animation state_key="recoil" animation_key="recoil, hip exo" />
+ 	<animation state_key="hold" animation_key="hold, hip exo" />
+	<animation state_key="recoil" stance_key="over_wall" animation_key="recoil1" />
+	<animation state_key="recoil" stance_key="over_wall" animation_key="recoil2" />
+	<animation state_key="recoil" stance_key="over_wall" animation_key="recoil3" />
+	<animation state_key="recoil" stance_key="crouching" animation_key="recoil1" />
+	<animation state_key="recoil" stance_key="crouching" animation_key="recoil2" />
+	<animation state_key="recoil" stance_key="crouching" animation_key="recoil3" />
+  	<animation state_key="hold_on_wall"	animation_key="still" />
+    <animation key="reload" animation_key="fast throw" />
+    <animation state_key="stabbing" animation_key="stabbing, stock" />
+
+    <sound key="fire" fileref="stoner_lmg_shot.wav" pitch_variety="0.04" volume="0.7" />
+    <sound key="magazine_out" fileref="mg_clip_out.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.03" volume="0.5" />
+	<sound key="stab_hit" fileref="impact_whip.wav" pitch_variety="0.05" volume="0.9" />
+	<sound key="stab_hit_any" fileref="whip_hit.wav" pitch_variety="0.05" volume="0.8" />
+    <model filename="ripper_stoner_lmg.xml" />
+
+    <hud_icon filename="hud_stoner_lmg.png" />
+    <commonness value="0.7" can_respawn_with="1" in_stock="1" />
+    <inventory encumbrance="10.0" price="0.0" />
+
+    <weak_hand_hold offset="0.4" />
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="0.6" kill_decay_start_time="0.35" kill_decay_end_time="0.75" />
+    </projectile>
+    
+    <stance state_key="running" accuracy="0.05" />
+    <stance state_key="walking" accuracy="0.4" />
+    <stance state_key="crouch_moving" accuracy="0.1" />
+    <stance state_key="standing" accuracy="0.7" />
+    <stance state_key="crouching" accuracy="0.85" />
+    <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="prone_moving" accuracy="0.1" />
+    <stance state_key="over_wall" accuracy="0.95" />     
+    
+	<modifier class="speed" value="-0.1" />
+	
+    <shield offset="-0.0 0.0 0" extent="0.8 0.8 0.6" usable_for_cover="0" />
+	
+	    <drop_on_death_result class="spawn" instance_class="projectile" instance_key="exo_explosion.projectile" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" />
+</weapon>

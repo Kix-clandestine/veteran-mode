@@ -8,5 +8,10 @@
 
   <!-- add weapons below, not in ./weapons/all_weapons.xml -->
   <!-- if you add something here, remember to add it in common.resources or specific faction resources too! -->
+  
+<!-- EXO Rippers -->
+  <weapon file="ripper_steyr_aug.weapon" />
+  <weapon file="ripper_stoner_lmg.weapon" />
+  <weapon file="ripper_aa12.weapon" />
 
 </weapons>
