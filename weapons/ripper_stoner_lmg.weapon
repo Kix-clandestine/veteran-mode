@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+
+<weapon filename="ripper_stoner_lmg_base.weapon" key="ripper_stoner_lmg.weapon" transform_on_consume="ripper_baton_2">
+      <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="1" />
+</weapon>
+
+<weapon filename="ripper_stoner_lmg_base.weapon" key="ripper_stoner_lmg_2" transform_on_consume="ripper_baton_2">
+      <commonness value="0.0" in_stock="0" />
+      <capacity value="1" source="rank" source_value="0.0" />
+      <inventory encumbrance="10.0" price="1.0" />
+
+      <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="1" />
+</weapon>
+
+<weapon filename="ripper_baton_base.weapon" key="ripper_baton_2" transform_on_consume="ripper_stoner_lmg_2">
+      <commonness value="0.0" in_stock="0" />
+      <capacity value="1" source="rank" source_value="0.0" />
+      <inventory encumbrance="10.0" price="1.0" />
+
+      <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="1" />
+</weapon>
+
+</weapons>

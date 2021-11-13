@@ -10,4 +10,7 @@
   <!-- add throwables/projectiles below, not in ./weapons/all_throwables.xml -->
   <!-- if you add something here, remember to add it in common.resources or specific faction resources too! -->
 
+<!-- EXO Rippers -->
+  <projectile file="exo_explosion.projectile" />
+
 </projectiles>
