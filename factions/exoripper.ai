@@ -21,4 +21,6 @@
   <parameter class="fighting_melee_move_radius" value="1.0" />
   <parameter class="fighting_regular_move_radius" value="1.0" />
   <parameter class="monitor_enemies_to_stab_while_peace" value="1.0" />
+  <parameter class="run_limit_margin" value="0.0" />
+  <parameter class="run_limit" value="1.0" />
 </ai>
