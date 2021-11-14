@@ -12,5 +12,6 @@
 
 <!-- EXO Rippers -->
   <projectile file="exo_explosion.projectile" />
+  <projectile file="exo_explosion_blast.projectile" />
 
 </projectiles>
