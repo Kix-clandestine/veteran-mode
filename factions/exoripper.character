@@ -69,13 +69,13 @@
 
 	<parameter class="warn_about_overencumbered_time" value="4.0" />
 
-	<parameter class="detectability_prone" value="1.0" />
+	<parameter class="detectability_prone" value="1.1" />
 	<parameter class="detectability_wounded" value="0.6" />
-	<parameter class="detectability_crouching" value="0.88" />
-	<parameter class="detectability_crouch_moving" value="0.9" />
-	<parameter class="detectability_walking" value="1.0" />
-	<parameter class="detectability_still" value="0.88" />
-	<parameter class="detectability_running" value="1.0" />
+	<parameter class="detectability_crouching" value="0.98" />
+	<parameter class="detectability_crouch_moving" value="1.0" />
+	<parameter class="detectability_walking" value="1.1" />
+	<parameter class="detectability_still" value="0.98" />
+	<parameter class="detectability_running" value="1.1" />
 
 <!-- <parameter class="default_squad_config_index" value="0" /> -->
 
