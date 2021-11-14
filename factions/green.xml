@@ -82,7 +82,7 @@
   <!-- -------------- -->
   <!-- player group -->
   <!-- -------------- -->
-  <soldier name="defaultold" spawn_score="0.0">
+  <soldier name="default" spawn_score="0.0">
     <character filename="default_male.character">
       <parameter class="default_squad_config_index" value="0" />
     </character>
@@ -122,7 +122,7 @@
   <!-- -------------- -->
   <!-- default ai group -->
   <!-- -------------- -->
-  <soldier name="default_ai" spawn_score="1.0" copy_from="defaultold">
+  <soldier name="default_ai" spawn_score="1.0" copy_from="default">
     <resources>
       <weapon key='m24_a2.weapon' enabled="0" />
       <carry_item key='camouflage_suit.carry_item' enabled="0" />
@@ -614,7 +614,7 @@
   <!-- -------- -->
   <!-- exo ripper -->
   <!-- -------- -->
-  <soldier name="default" spawn_score="0.05" squad_size_xp_cap="0">
+  <soldier name="exo ripper" spawn_score="0.05" squad_size_xp_cap="0">
     <character filename="exoripper.character" />
     <ai filename="exoripper.ai" />
 
