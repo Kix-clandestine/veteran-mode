@@ -16,9 +16,9 @@
   <parameter class="wait_time_variance" value="0.4" />
   <parameter class="fighting_time_fire_not_open" value="1.2" />
   <parameter class="melee_attack_wait_time" value="0.0" />
-  <parameter class="willingness_to_charge" value="0.5" />
+  <parameter class="willingness_to_charge" value="0.1" />
   <parameter class="using_cover_min_time" value="0.0" />
-  <parameter class="using_cover_max_time" value="0.0" />
+  <parameter class="using_cover_max_time" value="1.0" />
   <parameter class="fire_open_min_time" value="10.0" />
   <parameter class="fighting_melee_move_radius" value="1.0" />
   <parameter class="fighting_regular_move_radius" value="1.0" />
