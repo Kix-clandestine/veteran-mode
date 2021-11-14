@@ -54,7 +54,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+7.00" /> 
 		<modifier class="speed" value="+0.30" /> 
 
     </carry_item>
@@ -174,7 +174,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+4.00" /> 
 		<modifier class="speed" value="+0.18" /> 
 
     </carry_item>
@@ -184,7 +184,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+4.00" /> 
 		<modifier class="speed" value="+0.17" /> 
 
     </carry_item>
@@ -194,7 +194,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+4.00" /> 
 		<modifier class="speed" value="+0.16" /> 
 
     </carry_item>
@@ -204,7 +204,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+3.00" /> 
 		<modifier class="speed" value="+0.15" /> 
 
     </carry_item>
@@ -214,7 +214,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+3.00" /> 
 		<modifier class="speed" value="+0.14" /> 
 
     </carry_item>
@@ -224,7 +224,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+3.00" /> 
 		<modifier class="speed" value="+0.13" /> 
 
     </carry_item>
@@ -234,7 +234,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+2.00" /> 
 		<modifier class="speed" value="+0.12" /> 
 
     </carry_item>
@@ -244,7 +244,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+1.00" /> 
 		<modifier class="speed" value="+0.11" /> 
 
     </carry_item>
