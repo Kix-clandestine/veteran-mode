@@ -16,11 +16,11 @@
 		<requirement class="carry_item" slot="1" key="vest_exo_mk2_3"/>
 		<requirement class="rank" range="0 100000" />
 	</model>
-	<model filename="soldier_b_ripper.xml">
+	<model filename="soldier_b_ripper2.xml">
 		<requirement class="carry_item" slot="1" key="vest_exo_mk2_4"/>
 		<requirement class="rank" range="0 100000" />
 	</model>
-	<model filename="soldier_b_ripper.xml">
+	<model filename="soldier_b_ripper2.xml">
 		<requirement class="carry_item" slot="1" key="vest_exo_mk2_5"/>
 		<requirement class="rank" range="0 100000" />
 	</model>
@@ -141,12 +141,12 @@
 		<requirement class="rank" range="0 100000" />
 		<requirement class="weapon" slot="0" key="ripper_baton_1"/>
 	</model>
-	<model filename="soldier_b_ripper_baton.xml">
+	<model filename="soldier_b_ripper2_baton.xml">
 		<requirement class="carry_item" slot="1" key="vest_exo_mk2_4"/>
 		<requirement class="rank" range="0 100000" />
 		<requirement class="weapon" slot="0" key="ripper_baton_1"/>
 	</model>
-	<model filename="soldier_b_ripper_baton.xml">
+	<model filename="soldier_b_ripper2_baton.xml">
 		<requirement class="carry_item" slot="1" key="vest_exo_mk2_5"/>
 		<requirement class="rank" range="0 100000" />
 		<requirement class="weapon" slot="0" key="ripper_baton_1"/>
@@ -293,12 +293,12 @@
 		<requirement class="rank" range="0 100000" />
 		<requirement class="weapon" slot="0" key="ripper_baton_2"/>
 	</model>
-	<model filename="soldier_b_ripper_baton.xml">
+	<model filename="soldier_b_ripper2_baton.xml">
 		<requirement class="carry_item" slot="1" key="vest_exo_mk2_4"/>
 		<requirement class="rank" range="0 100000" />
 		<requirement class="weapon" slot="0" key="ripper_baton_2"/>
 	</model>
-	<model filename="soldier_b_ripper_baton.xml">
+	<model filename="soldier_b_ripper2_baton.xml">
 		<requirement class="carry_item" slot="1" key="vest_exo_mk2_5"/>
 		<requirement class="rank" range="0 100000" />
 		<requirement class="weapon" slot="0" key="ripper_baton_2"/>
@@ -445,12 +445,12 @@
 		<requirement class="rank" range="0 100000" />
 		<requirement class="weapon" slot="0" key="ripper_baton_3"/>
 	</model>
-	<model filename="soldier_b_ripper_baton.xml">
+	<model filename="soldier_b_ripper2_baton.xml">
 		<requirement class="carry_item" slot="1" key="vest_exo_mk2_4"/>
 		<requirement class="rank" range="0 100000" />
 		<requirement class="weapon" slot="0" key="ripper_baton_3"/>
 	</model>
-	<model filename="soldier_b_ripper_baton.xml">
+	<model filename="soldier_b_ripper2_baton.xml">
 		<requirement class="carry_item" slot="1" key="vest_exo_mk2_5"/>
 		<requirement class="rank" range="0 100000" />
 		<requirement class="weapon" slot="0" key="ripper_baton_3"/>

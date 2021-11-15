@@ -4,7 +4,7 @@
 
         <commonness value="1.0" in_stock="1" can_respawn_with="1" />
 
-		<modifier class="hit_success_probability" value="-0.30" /> 
+		<modifier class="hit_success_probability" value="-0.40" /> 
 		<modifier class="speed" value="+0.20" /> 
 
     </carry_item>
@@ -14,7 +14,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="-0.30" /> 
+		<modifier class="hit_success_probability" value="-0.40" /> 
 		<modifier class="speed" value="+0.19" /> 
 
     </carry_item>
@@ -24,28 +24,28 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 		
-		<modifier class="hit_success_probability" value="-0.30" /> 
+		<modifier class="hit_success_probability" value="-0.40" /> 
 		<modifier class="speed" value="+0.18" /> 
 
     </carry_item>
 	
 	
-    <carry_item filename="vest_exo_mk2_base1.carry_item" key="vest_exo_mk2_4" transform_on_consume="vest_exo_mk2_5">
+    <carry_item filename="vest_exo_mk2_base2.carry_item" key="vest_exo_mk2_4" transform_on_consume="vest_exo_mk2_5">
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="-0.30" /> 
-		<modifier class="speed" value="+0.17" /> 
+		<modifier class="hit_success_probability" value="+7.00" /> 
+		<modifier class="speed" value="+0.30" /> 
 
     </carry_item>
 	
 	
-    <carry_item filename="vest_exo_mk2_base1.carry_item" key="vest_exo_mk2_5" transform_on_consume="vest_exo_mk2_6">
+    <carry_item filename="vest_exo_mk2_base2.carry_item" key="vest_exo_mk2_5" transform_on_consume="vest_exo_mk2_6">
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="-0.30" /> 
-		<modifier class="speed" value="+0.16" /> 
+		<modifier class="hit_success_probability" value="+6.00" /> 
+		<modifier class="speed" value="+0.30" /> 
 
     </carry_item>
 	
@@ -253,6 +253,8 @@
     <carry_item filename="vest_exo_mk2_base3.carry_item" key="vest_exo_mk2_26" transform_on_consume="vest_exo_mk2_27">
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+		
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
 
 		<modifier class="hit_success_probability" value="-0.30" /> 
 		<modifier class="speed" value="+0.0" /> 
@@ -263,6 +265,8 @@
     <carry_item filename="vest_exo_mk2_base3.carry_item" key="vest_exo_mk2_27" transform_on_consume="vest_exo_mk2_28">
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+		
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
 
 		<modifier class="hit_success_probability" value="-0.30" /> 
 		<modifier class="speed" value="+0.0" /> 
@@ -273,6 +277,8 @@
     <carry_item filename="vest_exo_mk2_base3.carry_item" key="vest_exo_mk2_28" transform_on_consume="vest_exo_mk2_29">
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+		
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
 
 		<modifier class="hit_success_probability" value="-0.30" /> 
 		<modifier class="speed" value="+0.0" /> 
@@ -283,6 +289,8 @@
     <carry_item filename="vest_exo_mk2_base3.carry_item" key="vest_exo_mk2_29" transform_on_consume="vest_exo_mk2_30">
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+		
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
 
 		<modifier class="hit_success_probability" value="-0.30" /> 
 		<modifier class="speed" value="+0.0" /> 
@@ -293,6 +301,8 @@
     <carry_item filename="vest_exo_mk2_base4.carry_item" key="vest_exo_mk2_30" transform_on_consume="vest_exo_mk2_dead">
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+		
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
 
 		<modifier class="hit_success_probability" value="-0.30" /> 
 		<modifier class="speed" value="+0.0" /> 
