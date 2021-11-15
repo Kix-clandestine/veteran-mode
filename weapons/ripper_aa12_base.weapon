@@ -4,7 +4,7 @@
     accuracy_factor="0.8" 
     sustained_fire_grow_step="0.6" 
     sustained_fire_diminish_rate="0.6" 
-    magazine_size="1000" 
+    magazine_size="30" 
     can_shoot_standing="1" 
     can_shoot_prone="0" 
     suppressed="0" 
@@ -27,7 +27,7 @@
 	<animation state_key="recoil" stance_key="crouching" animation_key="recoil2" />
 	<animation state_key="recoil" stance_key="crouching" animation_key="recoil3" />
   	<animation state_key="hold_on_wall"	animation_key="still" />
-    <animation key="reload" animation_key="fast throw" />
+    <animation key="reload" animation_key="reloading, aa-12" />
     <animation state_key="stabbing" animation_key="stabbing, stock" />
 	
     <sound key="fire" fileref="aa-12_shot.wav" pitch_variety="0.05" volume="0.7" />

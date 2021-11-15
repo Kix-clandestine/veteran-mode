@@ -174,7 +174,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+4.00" /> 
 		<modifier class="speed" value="+0.18" /> 
 
     </carry_item>
@@ -184,7 +184,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+4.00" /> 
 		<modifier class="speed" value="+0.17" /> 
 
     </carry_item>
@@ -194,7 +194,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+4.00" /> 
 		<modifier class="speed" value="+0.16" /> 
 
     </carry_item>
@@ -204,7 +204,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+3.00" /> 
 		<modifier class="speed" value="+0.15" /> 
 
     </carry_item>
@@ -214,7 +214,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+3.00" /> 
 		<modifier class="speed" value="+0.14" /> 
 
     </carry_item>
@@ -224,7 +224,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+3.00" /> 
 		<modifier class="speed" value="+0.13" /> 
 
     </carry_item>
@@ -234,7 +234,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+2.00" /> 
 		<modifier class="speed" value="+0.12" /> 
 
     </carry_item>
@@ -244,7 +244,7 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="hit_success_probability" value="+5.00" /> 
+		<modifier class="hit_success_probability" value="+1.00" /> 
 		<modifier class="speed" value="+0.11" /> 
 
     </carry_item>
@@ -290,22 +290,9 @@
     </carry_item>
 	
 	
-    <carry_item filename="vest_exo_mk2_base3.carry_item" key="vest_exo_mk2_30" transform_on_consume="vest_exo_mk2_dead" name="Exo Mk.II, damaged" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
-		<hud_icon filename="hud_exo_vest_d.png" />
-		<capacity value="1" source="rank" source_value="0.0" />
-		<inventory encumbrance="50" price="0" />
-
-		<model />
+    <carry_item filename="vest_exo_mk2_base4.carry_item" key="vest_exo_mk2_30" transform_on_consume="vest_exo_mk2_dead">
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
-
-		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
-		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
-		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
-		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="stun" />
-		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
-		<modifier class="melee_hit_result" input_character_state="death" output_character_state="wound" />
 
 		<modifier class="hit_success_probability" value="-0.30" /> 
 		<modifier class="speed" value="+0.0" /> 
@@ -322,15 +309,15 @@
 
         <commonness value="0.0" in_stock="0" can_respawn_with="0" />
 
-		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
-		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" />
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" consumes_item="1" />
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="1" />
 		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
-		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
-		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" />
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" consumes_item="1" />
+		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="1" />
 		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="wound" consumes_item="0" />
 
-		<modifier class="hit_success_probability" value="-0.30" /> 
+		<modifier class="hit_success_probability" value="+0.0" /> 
 		<modifier class="speed" value="+0.0" /> 
 
     </carry_item>
